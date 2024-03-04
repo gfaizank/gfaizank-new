@@ -18,7 +18,7 @@ const Footer = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="www.linkedin.com/in/faizan-khan-8b622014b"
+              href="https://www.linkedin.com/in/faizan-khan-8b622014b/"
               className="inline-block transition-all hover:scale-110"
             >
               <BsLinkedin size={24} />
