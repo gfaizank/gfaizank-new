@@ -38,7 +38,7 @@ const HeroSection = () => {
         <a
           rel="noreferrer"
           target="_blank"
-          href="www.linkedin.com/in/faizan-khan-8b622014b"
+          href="https://www.linkedin.com/in/faizan-khan-8b622014b/"
           className="p-3 inline-block rounded outline-orange-700 transition-colors hover:bg-orange-100"
         >
           <BsLinkedin size={28} />
