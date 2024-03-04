@@ -19,56 +19,59 @@ const Projects = () => {
           <img src={laonImg} alt="Laon E-commerce" className="w-full" />
         </div>
         <div className="text-center md:w-1/2 md:text-left">
-          <h3 className="mb-4">Laon</h3>
+          <h3 className="mb-4">CrytoFizz</h3>
           <p className="max-w-lg mb-2 text-gray-800 md:text-lg">
-            Laon is an e-commerce platform that targets consumers wanting to
-            purchase mobile devices and accessories at affordable prices. I took
-            inspiration from sites such as Amazon, Jumia and Mi to create an
-            amazing UI/UX. This platform was built from scratch using my
-            frontend knowledge and skills. I made use of APIs such as Commerce
-            js for the backend of the site, Stripe to handle payment, and
-            Firebase to handle login authentication. This site is responsive.
+            CrytoFizz is a Crypto tracking platform that targets consumers
+            wanting to buy Cryptocurrenices at best prices. It is a Crypto app,
+            making use of <span className="font-semibold">CoinGecko api</span>{' '}
+            to show data with{' '}
+            <span className="font-semibold">React charts</span> and tables in
+            real time. Context API has been used for state management with
+            Tailwind's unique plugin{' '}
+            <span className="font-semibold">"tailwind scrollbar"</span> for
+            better UX.
           </p>
           <p className="mb-8 text-gray-800 md:text-lg">
-            <span className="text-lg font-semibold">Tools Used:</span> HTML,
-            Tailwind CSS, React, Git, GitHub, Commerce js API, Firebase API,
-            Stripe API, Netlify
+            <span className="text-lg font-semibold">Tools Used:</span> Reactjs,
+            Context API, Tailwind Css, CoinGecko API, React Charts and Netlify.
           </p>
 
-          <ButtonSmall link="https://elaon.netlify.app/" text="Live Link" />
+          <ButtonSmall link="https://crytofizz.netlify.app/" text="Live Link" />
         </div>
       </div>
 
       <div className="container mx-auto max-w-7xl flex flex-col-reverse items-center justify-between space-y-reverse space-y-6 px-2 md:flex-row md:space-y-0 md:space-x-4 md:px-8 lg:px-20 xl:space-x-24 xl:px-24">
         <div className="text-center md:w-1/2 md:text-left">
-          <h3 className="mb-4">Bettershotz Clone</h3>
+          <h3 className="mb-4">Video Calling Web App</h3>
           <p className="max-w-lg mb-2 text-gray-800 md:text-lg">
-            I re-created the homepage of{' '}
+            I re-created the web app of{' '}
             <span>
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://bettershotz.com/"
+                href="https://meet.google.com/"
                 className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600 font-bold"
               >
-                BetterShotz website
+                Google Meet
               </a>
             </span>{' '}
-            because I got attracted to their beautiful UI. It was a great
-            experience for me to build the entire frontend.
+            because of the intriguing tech stacks used in it. It is a
+            Professionally created video calling web app built to provide a 100%
+            cross platform video communication utility with absolutely no local
+            dependancies.
           </p>
           <p className="mb-8 text-gray-800 md:text-lg">
-            <span className="text-lg font-semibold">Tools Used:</span> HTML,
-            Tailwind CSS, React, Git, GitHub, Netlify
+            <span className="text-lg font-semibold">Tools Used:</span> Nodejs,
+            Expressjs, Reactjs, WebRTC, Socket.io
           </p>
 
           <ButtonSmall
-            link="http://bettershotz-clone.netlify.app/"
-            text="Live Link"
+            link="https://github.com/gfaizank/Video_Calling_Application"
+            text="Code Link"
           />
         </div>
         <div className="pl-10 w-11/12 sm:w-3/4 md:w-3/5 lg:w-1/2 md:pl-0">
-          <img src={bettershotzImg} alt="BetterShotz" className="w-full" />
+          <img src={bettershotzImg} alt="GoogleMeet" className="w-full" />
         </div>
       </div>
     </section>

@@ -11,76 +11,98 @@ const ProfessionalExp = () => {
 
       <div className="container mx-auto max-w-7xl px-4 mb-10 flex justify-around text-gray-800 sm:px-10 md:space-x-6 lg:space-x-0">
         <div className="hidden text-lg font-semibold md:block">
-          <p>May 2023 - Oct 2023</p>
-          <p>United States | Remote</p>
+          <p>Jan 2024 - Present</p>
+          <p>India | Remote</p>
         </div>
         <div>
-          <h3>Frontend Developer</h3>
-          <p className="text-lg font-semibold italic md:mb-2">GoAppiT</p>
+          <h3>Software Developer-Full Stack</h3>
+          <p className="text-lg font-semibold italic md:mb-2">Inzint</p>
           <div className="font-semibold mb-2 md:hidden">
-            <p>May 2023 - Oct 2023</p>
-            <p>United States | Remote</p>
+            <p>Jan 2024 - Present</p>
+            <p>India | Remote</p>
           </div>
           <p className="max-w-2xl text-lg mb-2">
-            • Redesigned the UI of a client's website and rewrote the code in
-            HTML and Tailwind CSS making it fully responsive with a functional
-            sidebar menu.
+            • Co-Led the development of{' '}
+            <span className="font-semibold">Travelr - AI</span> project,
+            integrating Next.js, Context & useReducer, Express and Firebase
+            Cloud Functions for a robust travel planning application.
           </p>
           <p className="text-lg mb-2">
-            • Utilize ReactJS and Tailwind CSS to rebuild the frontend of the
-            company's website.
+            • Integrated custom <span className="font-semibold">OpenAI</span>{' '}
+            endpoint for itinerary generation and{' '}
+            <span className="font-semibold">Travelpedia's API</span> for place
+            suggestions. Also devised an algorithm to minimize OpenAI endpoint
+            latency, ensuring quick itinerary suggestions.
           </p>
-          <p className="text-lg mb-2">
+          {/* <p className="text-lg mb-2">
             • Assisting with the UI/UX planning of the company's website
-          </p>
+          </p> */}
           <p className="text-lg">
             <span className="font-semibold">Toolsets: </span>
-            Visual Studio Code, Git, HTML, ReactJS, Tailwind CSS
+            Nextjs, Reactjs Context API, Nodejs, Express, Javascript, AWS,
+            Firebase Cloud Functions & Redis.
+          </p>
+        </div>
+      </div>
+
+      <div className="container mx-auto max-w-7xl px-4 mb-10 flex justify-around text-gray-800 sm:px-10 md:space-x-6 lg:space-x-0">
+        <div className="hidden text-lg font-semibold md:block">
+          <p>Mar 2023 - Dec 2023</p>
+          <p>India | Remote</p>
+        </div>
+        <div>
+          <h3>Full Stack Developer</h3>
+          <p className="text-lg font-semibold italic md:mb-2">Urban Space</p>
+          <div className="font-semibold mb-2 md:hidden">
+            <p>Mar 2023 - Dec 2023</p>
+            <p>India | Remote</p>
+          </div>
+          <p className="max-w-2xl text-lg mb-2">
+            • Implemented best Frontend ecosystem design patterns for better
+            code implementation.
+          </p>
+          <p className="max-w-2xl text-lg mb-2">
+            • Built the recommendation system from scratch which powered, the
+            Customer Home-Screen. It included building features based on
+            different customer, device, and locale-based metrics which increased
+            the conversion of the user from Homescreen to Cart by 2%.
+          </p>
+          <p className="max-w-2xl text-lg">
+            <span className="font-semibold">Toolsets: </span>
+            React.js, Next.js, Redux, Node.js, Express, Javascript, Frontend
+            Design Patterns, Material UI and other Design Libraries.
           </p>
         </div>
       </div>
 
       <div className="container mx-auto max-w-7xl px-4 flex justify-around text-gray-800 sm:px-10 md:space-x-6 lg:space-x-0">
         <div className="hidden text-lg font-semibold md:block">
-          <p>Oct 2023 - Jan 2024</p>
-          <p>United States | Remote</p>
+          <p>May 2022 - Jan 2023</p>
+          <p>India | Hyderabad</p>
         </div>
         <div>
-          <h3>Software Engineer</h3>
-          <p className="text-lg font-semibold italic md:mb-2">GoAppiT</p>
+          <h3>Support Engineer</h3>
+          <p className="text-lg font-semibold italic md:mb-2">Amazon</p>
           <div className="font-semibold mb-2 md:hidden">
-            <p>Oct 2023 - Jan 2024</p>
-            <p>United States | Remote</p>
+            <p>May 2022 - Jan 2023</p>
+            <p>India | Hyderabad</p>
           </div>
           <p className="max-w-2xl text-lg mb-2">
-            • Utilize Flask to connect to Cargowise system for a client
+            • Designed and seamlessly integrated a user-centric chatbot
+            utilizing React.js & Nodejs, adhering to microservices architecture
+            and integrated it with Amazon Search.
           </p>
-          <p className="max-w-2xl text-lg mb-2">
-            • Utilize Django and JavaScript to redesign and update the database
-            of an invoice form for a client by removing old fields, adding new
-            fields, or making changes to existing ones.
+          <p className="text-lg mb-2">
+            • Implemented Bundle Split due to which the main bundle delivery
+            size came to around 33% of its initial size. This lead to an
+            increase of 4% in the page loading time
           </p>
-          <p className="max-w-2xl text-lg mb-2">
-            • Utilize Django to restrict users' access to certain data unless
-            part of a certain group in the Django admin panel
-          </p>
-          <p className="max-w-2xl text-lg mb-2">
-            • Wrote a Python script to connect to an SFTP server to download
-            files to a local directory and delete files in the remote directory
-            using Paramiko
-          </p>
-          <p className="max-w-2xl text-lg mb-2">
-            • Utilize Pandas to write a Python script which formatted an Excel
-            file to the desired format.
-          </p>
-          <p className="max-w-2xl text-lg mb-2">
-            • Wrote a Python script to get data from a list of text files in a
-            directory to use the data gotten to create a dynamic URL to scrape
-            data from a website.
-          </p>
-          <p className="max-w-2xl text-lg">
+          {/* <p className="text-lg mb-2">
+            • Assisting with the UI/UX planning of the company's website
+          </p> */}
+          <p className="text-lg">
             <span className="font-semibold">Toolsets: </span>
-            Visual Studio Code, Git, JavaScript, Python, Django, Flask
+            Reactjs, Redux, Javascript, Nodejs, Bash, AWS, Data Analytics.
           </p>
         </div>
       </div>
