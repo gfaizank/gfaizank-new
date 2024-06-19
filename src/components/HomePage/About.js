@@ -19,7 +19,7 @@ const About = () => {
             <p>
               I'm a{' '}
               <span className="font-semibold">Software Engineer</span> with
-              a passion for building up beautiful and responsive websites. I
+              a passion for building up beautiful and responsive web apps and native apps. I
               have worked on many projects that demonstrates my ability to make
               use of the concepts I've learned. You can check them out in the{' '}
               <span className="font-semibold">Projects</span> section.
@@ -79,7 +79,7 @@ const About = () => {
               <Skills text="Git" />
             </div>
             <div className="flex space-x-4">
-              <Skills text="MySQL" />
+              <Skills text="React Native" />
               <Skills text="JavaScript" />
               <Skills text="Typescript" />
             </div>

@@ -34,9 +34,12 @@ const ProfessionalExp = () => {
             suggestions. Also devised an algorithm to minimize OpenAI endpoint
             latency, ensuring quick itinerary suggestions.
           </p>
-          {/* <p className="text-lg mb-2">
-            • Assisting with the UI/UX planning of the company's website
-          </p> */}
+          <p className="text-lg mb-2">
+            • Built a Native App name Accrepro for a potential client using <span className="font-semibold">React Native</span> and styled using Tailwind Css integrated via Native Wind. Redux Toolkit was used for state management.
+          </p>
+          <p className="text-lg mb-2">
+            • Developed Inzint's in house <span className="font-semibold">CRM web app</span> using Reactjs, Tailwind CSS, Context API, Nodejs, Express, Typescript and MongoDB. Best Frontend Practices were used to minimise api calls by <span className="font-semibold">using custom hooks. React lazy loading and Reusable components</span> were also used for increased efficiency.
+          </p>
           <p className="text-lg">
             <span className="font-semibold">Toolsets: </span>
             Nextjs, Reactjs Context API, Nodejs, Express, Javascript, AWS,

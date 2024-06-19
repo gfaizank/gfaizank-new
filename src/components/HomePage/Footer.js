@@ -8,7 +8,7 @@ const Footer = () => {
           <h4 className="mb-4 text-2xl font-bold uppercase">Faizan Khan</h4>
           <p className="max-w-lg">
             A Software Engineer focused on building the frontend and backend of
-            websites that leads to the success of the overall product
+            Web Apps and Native apps that leads to the success of the overall product
           </p>
         </div>
 

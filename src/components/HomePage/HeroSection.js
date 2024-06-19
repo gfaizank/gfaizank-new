@@ -18,7 +18,7 @@ const HeroSection = () => {
               </h1>
               <p className="mb-8 max-w-xl flex text-lg text-center mx-auto text-gray-800 transition-all animate-moveInRight sm:text-xl md:text-lg lg:text-xl lg:mb-10">
                 A Software Engineer focused on building the frontend and complex backend systems of
-                web apps that leads to the success of the overall product
+                web/native apps that leads to the success of the overall product
               </p>
               <div className="animate-btnMoveInBottom">
                 <Button link="#projects" text="Projects" />
