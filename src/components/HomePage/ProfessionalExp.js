@@ -10,7 +10,7 @@ const ProfessionalExp = () => {
       </div>
 
       <div className="container mx-auto max-w-7xl px-4 mb-10 flex justify-around text-gray-800 sm:px-10 md:space-x-6 lg:space-x-0">
-        <div className="hidden text-lg font-semibold md:block">
+        <div className="hidden text-lg font-semibold mr-16 md:block">
           <p>Jan 2024 - Present</p>
           <p>India | Remote</p>
         </div>
@@ -79,7 +79,7 @@ const ProfessionalExp = () => {
       </div>
 
       <div className="container mx-auto max-w-7xl px-4 flex justify-around text-gray-800 sm:px-10 md:space-x-6 lg:space-x-0">
-        <div className="hidden text-lg font-semibold md:block">
+        <div className="hidden text-lg font-semibold mr-4 md:block">
           <p>May 2022 - Jan 2023</p>
           <p>India | Hyderabad</p>
         </div>
