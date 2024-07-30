@@ -3,7 +3,7 @@ import { BsLinkedin, BsTwitter, BsGithub } from 'react-icons/bs';
 
 import Navigation from './Navigation/Navigation';
 import Button from '../UI/Button';
-import mfonImg from '../../assets/mfon.webp';
+import mfonImg from '../../assets/faizan.jpg';
 
 const HeroSection = () => {
   return (
@@ -17,8 +17,9 @@ const HeroSection = () => {
                 Hi, I'm Faizan Khan
               </h1>
               <p className="mb-8 max-w-xl flex text-lg text-center mx-auto text-gray-800 transition-all animate-moveInRight sm:text-xl md:text-lg lg:text-xl lg:mb-10">
-                A Software Engineer focused on building the frontend and complex backend systems of
-                web/native apps that leads to the success of the overall product
+                Software Engineer specializing in crafting seamless frontend
+                experiences and complex backend systems for successful web and
+                native apps.
               </p>
               <div className="animate-btnMoveInBottom">
                 <Button link="#projects" text="Projects" />
@@ -27,7 +28,11 @@ const HeroSection = () => {
 
             <div className="w-3/4 border-dotted border-4 border-orange-200 rounded-lg shadow-[inset_0_0_50px_50px_#fdf2e9] animate-imgMoveInRight sm:w-3/5 sm:ml-6 md:w-1/2">
               <div className="bg-orange-200 rounded-lg">
-                <img src={mfonImg} alt="Mfon" className="w-full" />
+                <img
+                  src={mfonImg}
+                  alt="Mfon"
+                  className="object-scale-down rounded-lg p-[2px]"
+                />
               </div>
             </div>
           </div>

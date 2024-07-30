@@ -7,8 +7,9 @@ const About = () => {
       <div className="px-2 mb-12 text-center lg:mb-16">
         <h2>About Me</h2>
         <p className="max-w-2xl px-4 mx-auto text-lg text-gray-800 sm:px-10 md:text-xl md:max-w-3xl md:px-0">
-          Here you will find more information about me, what I do, and my
-          current skills in programming and technology.
+          Explore my background, expertise, and current skills in programming
+          and technology, and learn more about the innovative projects and
+          solutions I create.
         </p>
       </div>
 
@@ -17,22 +18,23 @@ const About = () => {
           <h3 className="mb-6">Get to know me!</h3>
           <div className="flex flex-col items-center space-y-4 mb-8 text-lg text-gray-800 lg:mb-10">
             <p>
-              I'm a{' '}
-              <span className="font-semibold">Software Engineer</span> with
-              a passion for building up beautiful and responsive web apps and native apps. I
-              have worked on many projects that demonstrates my ability to make
-              use of the concepts I've learned. You can check them out in the{' '}
+              I'm a <span className="font-semibold">Software Engineer</span>{' '}
+              with a passion for creating beautiful, responsive web and native
+              applications. Throughout my career, I have worked on numerous
+              projects that showcase my ability to apply advanced concepts and
+              innovative solutions. You can explore these in the{' '}
               <span className="font-semibold">Projects</span> section.
             </p>
+
             <p>
-              I enjoy sharing and interacting with people in the Web Dev world.
-              I believe that this helps me to grow and learn in this field. You
-              can connect with me on{' '}
+              I enjoy sharing and interacting with others in the Web Development
+              community. I believe this exchange of knowledge helps me grow and
+              learn continuously. Connect with me on{' '}
               <span>
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="www.linkedin.com/in/faizan-khan-8b622014b"
+                  href="https://www.linkedin.com/in/faizan-khan-8b622014b"
                   className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600 font-bold"
                 >
                   LinkedIn
@@ -49,14 +51,15 @@ const About = () => {
                   Twitter
                 </a>
               </span>{' '}
-              where I share my experiences and thoughts on various topics
-              related to Web Development.
+              where I share my experiences and insights on various Web
+              Development topics.
             </p>
+
             <p>
-              I'm open to <span className="font-semibold">Opportunities</span>{' '}
-               where I can learn, share ideas and work with
-              like-minded people. If you have any good opportunities that matches
-              my skills and experience, please don't hesitate to {''}
+              I'm open to <span className="font-semibold">opportunities</span>{' '}
+              where I can learn, share ideas, and collaborate with like-minded
+              individuals. If you have any opportunities that align with my
+              skills and experience, please don't hesitate to{' '}
               <span className="font-semibold">contact</span> me.
             </p>
           </div>
