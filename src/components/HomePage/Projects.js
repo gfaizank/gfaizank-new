@@ -33,7 +33,7 @@ const Projects = () => {
           </p>
           <p className="mb-8 text-gray-800 md:text-lg">
             <span className="text-lg font-semibold">Tools Used:</span> Reactjs,
-            Context API, Tailwind Css, CoinGecko API, React Charts and Netlify.
+            Redux Toolkit, Tailwind Css, CoinGecko API, React Charts and AWS.
           </p>
 
           <ButtonSmall link="https://crytofizz.netlify.app/" text="Live Link" />
@@ -62,7 +62,7 @@ const Projects = () => {
           </p>
           <p className="mb-8 text-gray-800 md:text-lg">
             <span className="text-lg font-semibold">Tools Used:</span> Nodejs,
-            Expressjs, Reactjs, WebRTC, Socket.io
+            Expressjs, Reactjs, WebRTC, Socket.io, Github Actions, Grafana and Amazon EC2.
           </p>
 
           <ButtonSmall

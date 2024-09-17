@@ -19,7 +19,7 @@ const About = () => {
           <div className="flex flex-col items-center space-y-4 mb-8 text-lg text-gray-800 lg:mb-10">
             <p>
               I'm a <span className="font-semibold">Software Engineer</span>{' '}
-              with a passion for creating beautiful, responsive web and native
+              with 3+ years of experience in the field and a  passion for creating beautiful, responsive web and native
               applications. Throughout my career, I have worked on numerous
               projects that showcase my ability to apply advanced concepts and
               innovative solutions. You can explore these in the{' '}

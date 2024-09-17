@@ -19,7 +19,7 @@ const HeroSection = () => {
               <p className="mb-8 max-w-xl flex text-lg text-center mx-auto text-gray-800 transition-all animate-moveInRight sm:text-xl md:text-lg lg:text-xl lg:mb-10">
                 Software Engineer specializing in crafting seamless frontend
                 experiences and complex backend systems for successful web and
-                native apps.
+                native apps with over 3+ years of experience.
               </p>
               <div className="animate-btnMoveInBottom">
                 <Button link="#projects" text="Projects" />
