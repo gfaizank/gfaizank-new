@@ -9,7 +9,7 @@ const MainScreen = () => {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center flex flex-col items-center text-white"
+      className="min-h-screen font-lato font-normal bg-cover bg-center flex flex-col items-center text-white"
       style={{ backgroundImage: `url(${portfolioBg})` }}
     >
       <div className="w-full max-w-2xl px-4 ml-52 my-28 flex flex-col items-start">
@@ -25,11 +25,11 @@ const MainScreen = () => {
         </div>
 
         <nav className="flex flex-wrap gap-4 mb-8 underline ">
-          <a href="/" className="hover:underline transition-transform duration-300 ease-in-out hover:-translate-y-1">about</a>
+          <a href="/about" className="hover:underline transition-transform duration-300 ease-in-out hover:-translate-y-1">about</a>
           <a href="/projects" className="hover:underline transition-transform duration-300 ease-in-out hover:-translate-y-1">projects</a>
           <a href="/talks" className="hover:underline transition-transform duration-300 ease-in-out hover:-translate-y-1">talks</a>
           <a href="/blogs" className="hover:underline transition-transform duration-300 ease-in-out hover:-translate-y-1">blogs</a>
-          <a href="https://github.com/yourusername" className="hover:underline transition-transform duration-300 ease-in-out hover:-translate-y-1">github</a>
+          <a href="https://github.com/gfaizank" className="hover:underline transition-transform duration-300 ease-in-out hover:-translate-y-1">github</a>
           <a href="/hobbies" className="hover:underline transition-transform duration-300 ease-in-out hover:-translate-y-1">hobbies</a>
         </nav>
 
@@ -49,7 +49,7 @@ const MainScreen = () => {
         )}
       </div>
 
-      <div className="absolute bottom-10 left-12">
+      <div className="fixed bottom-10 left-12">
         <Link color="white" size={24} />
       </div>
     </div>
