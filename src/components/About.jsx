@@ -6,7 +6,7 @@ const About = () => {
       <p className="w-[400px]">
         i'm Faizan, an experienced full stack engineer. I've a deep interest in
         building performant and scalable webapps. i also love crafting beautiful
-        interactions and animations on web using framer-motion. i'm also
+        interactions and animations on web using framer-motion. I'm also
         exploring AI these days.
         <br />
         <br />
